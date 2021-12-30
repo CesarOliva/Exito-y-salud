@@ -1,0 +1,1040 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 100vh;
+    background: #0B182B url(../Imagenes/fondo-header.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header .centro{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header .centro h1{
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 52px;
+    font-weight: 400;
+    color: #fff;
+}
+
+header .centro h2{
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 34px;
+    color: #fff;
+}
+
+header .imagen{
+    position: absolute;
+    bottom: 0;
+}
+
+header .imagen img{
+    margin: 30px;
+}
+
+.immunotec{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.immunotec h3{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 32px;
+    color: #000;
+    text-align: center;
+    margin: 30px;
+}
+
+.immunotec .contenedor{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    width: 70%;
+    align-items: center;
+}
+
+.immunotec .contenedor .paises{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.immunotec .contenedor .paises p{
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.immunotec .contenedor .paises img{
+    width: 500px;
+}
+
+.diferencias{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.diferencias h3{
+    font-family: 'Poppins';
+    font-size: 32px;
+    font-weight: 400;
+    color: #000;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.diferencias .container{
+    display: flex;
+    margin-bottom: 20px;
+    width: 70%;
+}
+
+.diferencias .container .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    padding: 0px 10px 0px 10px;
+}
+
+.diferencias .container .left p{
+    font-family: 'Poppins';
+    font-size: 19px;
+    font-weight: 400;
+    color: #626262;
+}
+
+.diferencias .container .right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+
+.diferencias .container .right img{
+    width: 350px;
+}
+
+.que-es {
+    background: #036DED;
+    display: flex;
+    justify-content: center;
+}
+
+.que-es .container{
+    width: 70%;
+    display: flex;
+    padding: 20px 0;
+}
+
+.que-es .container .left{
+    width: 40%;
+    padding: 0px 10px 0px 10px;
+    border-width: 0px 1px 0px 0px;
+    border-style: dotted;
+    border-color: #79abe8
+}
+
+.que-es .container .left h3{
+    margin-top: 20px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+.que-es .container .left p{
+    font-family: 'Poppins';
+    font-size: 18px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.que-es .container .right{
+    width: 60%;
+    padding: 0 20px;
+}
+
+.que-es .container .right h3{
+    margin-top: 20px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+.que-es .container .right span{
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.que-es .container .right p{
+    font-family: 'Open Sans';
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.productos{
+    background: #23395E;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.productos .container{
+    width: 70%;
+}
+
+.productos h3{
+    color: #fff;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.productos .regular,
+.productos .platinum{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.productos .regular .imagen,
+.productos .platinum .imagen{
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+
+.productos .platinum .imagen{
+    display: flex;
+    justify-content: end;
+}
+
+.productos .regular .imagen img,
+.productos .platinum .imagen img{
+    width: 300px;
+}
+
+.productos .regular .contenedor,
+.productos .platinum .contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+}
+
+.productos .regular .contenedor h4,
+.productos .platinum .contenedor h4{
+    font-family: 'Open sans';
+    font-weight: 400;
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.productos .regular .contenedor p,
+.productos .platinum .contenedor p{
+    color: #fff;
+    font-weight: 300;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    padding: 0px 10px;
+}
+
+.productos .platinum .contenedor b{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.productos .regular .contenedor .botones,
+.productos .platinum .contenedor .botones{
+    display: flex;
+    flex-direction: row;
+}
+
+.productos .regular .contenedor .botones button,
+.productos .platinum .contenedor .botones button{
+    background: #fff;
+    color: #000;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-family: 'Poppins';
+    font-size: 15px;
+    margin: 15px 10px;
+    transition: ease-in-out .5s;
+    width: 100px;
+    height: 30px;
+}
+
+.productos .regular .contenedor .botones button:hover,
+.productos .platinum .contenedor .botones button:hover{
+    background: #3386eb;
+    color: #fff;
+    border: 1px solid #fff;
+    transition: ease-in-out .5s;
+}
+
+/*<!--Cambios-->*/
+
+.numeros{
+    display: flex;
+    justify-content: center
+}
+
+.numeros img{
+    margin-top: 20px;
+    width:70%;
+}
+
+.negocio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.negocio .container{
+    width: 70%;
+}
+
+.negocio .container h3{
+    font-family: 'Open Sans';
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.negocio .container p{
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0px 10px 0px 10px;
+}
+
+.negocio .container .oportunidades{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.negocio .container .oportunidades .contenedor{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+
+    margin-top: 50px;
+}
+
+.negocio .container .oportunidades .contenedor p{
+    background: #23395E;
+    color: #fff;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+    padding: 8px 0px 8px 0px;
+}
+
+.negocio .container .oportunidades .contenedor img{
+    height: 250px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.negocio .down {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.negocio .down .ventajas{
+    width: 50%;
+}
+
+.negocio .down .ventajas .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.negocio .down .ventajas .container h4{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    background: #23395E;
+    display: inline;
+    padding: 5px 20px 5px 20px;
+    border-radius: 15px;
+}
+
+.negocio .down .ventajas .container ul {
+    padding-left:20px;
+    padding-top: 10px;
+}
+
+.negocio .down .ventajas .container ul li{
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400px;
+}
+
+.negocio .down .empezar{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.negocio .down .empezar .container{
+    width: 90%;
+    padding: 0px 10px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.negocio .down .empezar .container h4{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.negocio .down .empezar .container p{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.negocio .down .empezar .container button{
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 20px;
+    color: #fff;
+    background: #23395E;
+    padding: 5px 20px 5px 20px;
+    border-radius: 15px;
+    border: 1px solid #23395E;
+    margin-top: 20px;
+    transition: ease-in-out .5s;
+}
+
+.negocio .down .empezar .container button:hover{
+    color: #000;
+    background: #fff;
+    border: 1px solid #23395E;
+    transition: ease-in-out .5s;
+}
+
+footer{
+    background: #23395E;
+    display: flex;
+    justify-content: center;
+}
+
+footer .container{
+    width: 70%;
+}
+
+footer h5{
+    text-align: center;
+    color: #fff;
+    font-family: 'Open Sans';
+    font-size: 26px;
+    font-weight: 600;
+    padding: 30px 0 30px 0;
+}
+
+footer .contacto{
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: space-evenly;
+}
+
+footer .contacto div{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .contacto .facebook{
+    background: #1877F2;
+}
+
+footer .contacto .instagram{
+    background: #e1306c;
+}
+
+footer .contacto .correo i{
+    color: #D44C3D;
+}
+
+footer .contacto .correo{
+    background: #fff;
+}
+
+footer .contacto .youtube{
+    background: #ff0000;
+}
+
+footer .contacto .whatsapp{
+    background: #25D366;
+}
+
+footer .contacto i{
+    color: #fff;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .container p,
+footer .container a{
+    text-align: center;
+    color: #fff;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+footer .container a{
+    text-decoration: none;
+}
+
+@media screen and (max-width:1600px) {
+    .diferencias .container .left p{
+        padding-right: 10px;
+    }
+
+    .diferencias .container .right img{
+        width: 330px;
+    }
+}
+
+@media screen and (max-width:1440px) {
+    .immunotec .contenedor,
+    .diferencias .container,
+    .que-es .container,
+    .productos .container,
+    .numeros img,
+    .negocio .container,
+    .negocio .down{
+        width: 80%;
+    }
+
+    .diferencias .container .right img{
+        width: 300px
+    }
+
+    .immunotec .contenedor .video iframe{
+        width: 400px;
+        height: 240px;
+    }
+}
+
+@media screen and (max-width:1280px) {
+    /* 85%*/
+    header .centro h1{
+        font-size: 44px;
+    }
+
+    header .centro h2{
+        font-size: 29px;
+    }
+
+    .immunotec h3,
+    .diferencias h3,
+    .productos h3,
+    .negocio .container h3{
+        font-size: 30px;
+    }
+
+    .diferencias .container .left p{
+        font-size: 18px;
+    }
+
+    .que-es .container .left h3,
+    .que-es .container .right h3{
+        font-size: 27px;
+    }
+
+    .que-es .container .left p,
+    .que-es .container .right p,
+    .negocio .container p,
+    .negocio .down .empezar .container p{
+        font-size: 16px;
+    }
+
+    .que-es .container .right span{
+        font-size: 18px;
+    }
+
+    .negocio .container .oportunidades .contenedor p{
+        font-size: 18px;
+    }
+
+    .negocio .container .oportunidades .contenedor img{
+        height: 220px;
+    }
+
+    .negocio .container .oportunidades .contenedor{
+        margin: 30px 10px 0px 10px;
+    }
+
+}
+
+@media screen and (max-width: 1100px) {
+    .immunotec .contenedor,
+    .diferencias .container,
+    .que-es .container,
+    .productos .container,
+    .numeros img,
+    .negocio .container,
+    .negocio .down{
+        width: 90%;
+    }
+
+    footer .container{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .immunotec .contenedor{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .immunotec .contenedor .paises p{
+        font-size: 18px;
+    }
+    
+    .immunotec .contenedor .paises img{
+        margin-bottom: 40px;
+    }
+
+    .immunotec .contenedor .video iframe{
+        width: 500px;
+        height: 300px;
+    }
+
+    .diferencias .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .diferencias .container .left{
+        width: 90%;
+    }
+
+    .diferencias .container .right{
+        width: 90%;
+        flex-direction: row;
+        display: flex;
+        justify-content: center;
+        align-items: normal;
+        margin-top: 30px;
+    }
+
+    .productos .regular,
+    .productos .platinum{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    .productos .regular .imagen,
+    .productos .platinum .imagen{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .productos .regular .contenedor,
+    .productos .platinum .contenedor{
+        width: 85%;
+    }
+
+    .negocio .container .oportunidades{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .negocio .down{
+        align-items: center;
+    }
+
+    .negocio .down .ventajas .container h4{
+        text-align: center;
+        font-size: 18px;
+    }
+
+    footer .contacto div{
+        height: 120px;
+        width: 120px;
+    }
+
+    footer .contacto i{
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 750px){
+
+    footer .container{
+        width: 90%;
+    }
+
+    footer .contacto{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    footer .container div{
+        margin: 0 15px 15px 15px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    header .centro h1{
+        font-size: 36px;
+    }
+    header .centro h2{
+        font-size: 26px;
+    }
+
+    .immunotec h3, 
+    .diferencias h3, 
+    .productos h3, 
+    .negocio .container h3{
+        font-size: 28px;
+    }
+
+    .productos .regular .contenedor, 
+    .productos .platinum .contenedor{
+        width: 95%;
+    }
+
+    .negocio .down{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .negocio .down .ventajas {
+        width: 70%;
+        margin-bottom: 30px;
+    }
+
+    .negocio .down .empezar{
+        width: 80%;
+    }
+
+    .negocio .down .empezar .container{
+        padding: 0;
+    }
+
+    .negocio .down .empezar .container p {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .immunotec{
+        margin-bottom: 0;
+    }
+
+    .immunotec h3{
+        margin: 20px;
+    }
+
+    .immunotec .contenedor .paises img{
+        width: 400px;
+    }
+
+    .immunotec .contenedor .paises p,
+    .diferencias .container .left p{
+        font-size: 16px;
+    }
+
+    .immunotec .contenedor .video iframe {
+        width: 400px;
+        height: 240px;
+    }
+
+    .diferencias .container .right img {
+        width: 200px;
+    }
+
+    .diferencias h3{
+        margin-top: 0;
+    }
+
+    .que-es .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .que-es .container .right,
+    .que-es .container .left{
+        width: 80%;
+        padding: 0px 10px 0px 10px;
+    }
+
+    .que-es .container .right h3,
+    .que-es .container .left h3{
+        text-align: center;
+    }
+
+    .que-es .container .left h3, 
+    .que-es .container .right h3 {
+        font-size: 25px;
+    }
+
+    .que-es .container .left {
+        border: none;
+    }
+
+    .numeros img{
+        width: 95%;
+    }
+
+    footer .contacto i{
+        font-size: 50px;
+    }
+
+    footer .contacto div{
+        height: 100px;
+        width:100px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    header .imagen img{
+        width: 200px;
+    }
+
+    header .centro h1 {
+        font-size: 32px;
+    }
+
+    header .centro h2 {
+        font-size: 24px;
+    }
+
+    .diferencias .container .left {
+        width: 100%;
+    }
+
+    .diferencias .container .right{
+        width: 100%;
+        justify-content: start;
+    }
+
+    .que-es .container .right, .que-es .container .left {
+        width: 90%;
+    }
+
+    .productos .regular .imagen img, 
+    .productos .platinum .imagen img {
+        width: 250px;
+    }
+
+    .productos .platinum .contenedor {
+        order: 2;
+    }
+
+    .productos .platinum .imagen{
+        order: 1;
+    }
+
+    .immunotec h3, 
+    .diferencias h3, 
+    .productos h3, 
+    .negocio .container h3 {
+        font-size: 26px;
+    }
+
+    footer .container p,
+    footer .container a{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .immunotec h3, .diferencias h3, .productos h3, .negocio .container h3 {
+        font-size: 24px;
+    }
+
+    .immunotec h3{
+        margin: 15px;
+    }
+
+    .immunotec .contenedor .paises img {
+        width: 350px;
+    }
+
+    .immunotec .contenedor .video iframe {
+        width: 350px;
+        height: 210px;
+    }
+
+    .diferencias .container .right {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .diferencias .container .right img {
+        width: 230px;
+    }
+
+    .negocio .container{
+        width: 100%;
+    }
+
+    .negocio .container .oportunidades .contenedor p {
+        font-size: 16px;
+    }
+
+    .negocio .down .empezar .container {
+        width: 100%;
+    }
+
+    .negocio .down .ventajas {
+        width: 80%;
+    }
+
+    .negocio .down .empezar {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    header .centro h1{
+        font-size: 30px;
+    }
+
+   header .centro h2{
+       width: 90%;
+       font-size: 22px;
+   }
+
+   .immunotec h3, 
+   .diferencias h3, 
+   .productos h3, 
+   .negocio .container h3 {
+        font-size: 22px;
+    }
+
+    .immunotec .contenedor .paises img {
+        width: 330px;
+    }
+
+    .immunotec .contenedor .video iframe {
+        width: 330px;
+        height: 200px;
+    }
+
+    .que-es .container .right, .que-es .container .left {
+        width: 100%;
+    }
+
+    .negocio .container .oportunidades .contenedor{
+        width: 250px;
+    }
+
+    .negocio .container .oportunidades .contenedor img {
+        height: 185px;
+    }
+
+    .productos .regular .contenedor, 
+    .productos .platinum .contenedor {
+        width: 100%;
+    }
+
+    .negocio .down .ventajas .container h4 {
+        font-size: 17px;
+    }
+
+    .negocio .down .empezar .container button{
+        font-size: 18px;
+    }
+
+    footer h5{
+        font-size: 23px;
+    }
+
+    footer .contacto div {
+        height: 90px;
+        width: 90px;
+    }
+
+    footer .contacto i {
+        font-size: 40px;
+    }
+
+    footer .container .contacto a{
+        margin-bottom: 0;
+    }
+
+    .immunotec .contenedor .paises p, 
+    .diferencias .container .left p, 
+    .que-es .container .left p, 
+    .que-es .container .right p, 
+    .negocio .container p, 
+    .negocio .down .empezar .container p,
+    .productos .regular .contenedor p, 
+    .productos .platinum .contenedor p,
+    .negocio .container .oportunidades .contenedor p{
+        font-size: 15px;
+    }
+}
